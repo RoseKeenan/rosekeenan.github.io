@@ -190,3 +190,17 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.parallax { 
+  /* The image used */
+  background-image: url("img/divider6.png");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

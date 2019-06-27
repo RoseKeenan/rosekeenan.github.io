@@ -24,6 +24,21 @@
 </head>
 
 <body id="page-top">
+<style>
+    .parallax { 
+      /* The image used */
+      background-image: url("img/divider6.png");
+
+      /* Set a specific height */
+      height: 100%; 
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -69,9 +84,12 @@
         <div class="subheading mb-5">Philadelphia, PA
           <!-- <a href="mailto:rosemkeenan@gmai.com">rosemkeenan@gmail.com</a> -->
         </div>
-        <p class="lead mb-5">I am an Information Science and Technology major at Temple Unviersity's College of Science
-          and Technology. I am also currently pursuing a minor in Spanish. I am currently looking for different developer 
-          opportunities to buid my experience and focus my interest.
+        <p class="lead mb-5">As a Information Science and Technology student at Temple University, I am 
+          driven and passionate about computer science and development. I take interest in web development and 
+          design as well as cyber-security. Working as a student database management coordinator, I am learning
+          more about data management and big data. I am always looking for opportunities to learn more skills and
+          programming languages as well as a focal point of interest in the computer science field.
+          
         </p>
         <div class="social-icons">
           <a href=" www.linkedin.com/in/rose-keenan">
@@ -92,54 +110,62 @@
         </div>
       </div>
     </section>
-
+      
+    <!-- Container element -->
+    <div class="parallax">
+      <div class="p-3 p-lg-5 d-flex align-items-center">
+        <h2 style="color: white;">Education</h2>
+      </div>
+    </div>
     
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+        <!-- <h2 class="mb-5">Education</h2> -->
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <!-- <img class="" style="padding-bottom: 30px;" src="img/templet.jpg" alt=""> -->
-            <h3 class="mb-0">Temple University</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Information Science and Technology, Minor in Spanish</div>
-            <p>Cummulative GPA: 3.51 <br>
-               Expected Graduation: December 2021
-            </p>
-            <h3 class="mb-0">Coursework</h3>
-            <p>Intro to Problem Solving and Programming <br>
-               Program Design and Abstraction <br>
-               Discrete Mathematics I <br>
-            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="mb-2">Temple University</h3>
+                <div class="subheading mb-3">Bachelor of Science</div>
+                <div>Information Science and Technology, Minor in Spanish</div>
+                <p>Cummulative GPA: 3.51 <br>
+                  Expected Graduation: December 2021
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <img class="" style="padding-bottom: 30px; width: 190px;" src="img/temple2.jpg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="mb-2">Coursework</h3>
+                <p>Intro to Problem Solving and Programming <br>
+                  Program Design and Abstraction <br>
+                  Discrete Mathematics I <br>
+                </p>
+              </div>
+            </div>
           </div>
-          <!-- <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
-          </div> -->
         </div>
-
-        <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
-          </div>
-        </div> -->
-
       </div>
     </section>
 
-
     <hr class="m-0">
+
+        
+    <!-- Container element -->
+    <div class="parallax">
+      <div class="p-3 p-lg-5 d-flex align-items-center">
+        <h2 style="color: white;">Experience</h2>
+      </div>
+    </div>
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <!-- <h2 class="mb-5">Experience</h2> -->
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -204,10 +230,17 @@
     </section>
 
     <hr class="m-0">
+        
+    <!-- Container element -->
+    <div class="parallax">
+      <div class="p-3 p-lg-5 d-flex align-items-center">
+        <h2 style="color: white;">Skills &amp; More</h2>
+      </div>
+    </div>
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
-        <h2 class="mb-5">Skills &amp; More</h2>
+        <!-- <h2 class="mb-5">Skills &amp; More</h2> -->
 
         <div class="subheading mb-3">Programming Languages</div>
         <ul class="list-inline dev-icons">
@@ -287,30 +320,7 @@
               Philly Codefest 2019 @ Drexel University</li>
         </ul>
 
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>I really enjoy developing and designing. Whenever I work on a project, I find myself spending a large amount of time
-          without even realizing it because of how challenging yet fun it can be. However, I also have a passion to teach and help our communities.
-          I find that is is extremely important to support our youth throughout their academic career so that we ensure
-          their success in the future. I would love to be more involved with schools and teaching computer science to younger students.
-        </p>
-        <p class="mb-0">I am also furthering my programming skills by going through Codecademy and Lynda lessons for Javascript.
-          I love learning new langauges and developing small projects to further my understanding.
-        </p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <div class="subheading mb-3" style="margin-top: 30px;">Awards</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
@@ -319,26 +329,31 @@
             <i class="fa-li fa fa-trophy text-warning"></i>
             World at Temple nomination for 2018 Mid-Atlantic College Emmy Award in Arts & Culture</li>
           <li>
-            <!-- <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li> -->
-        </ul>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    
+    <!-- Container element -->
+    <div class="parallax">
+      <div class="p-3 p-lg-5 d-flex align-items-center">
+        <h2 style="color: white;">Interests</h2>
+      </div>
+    </div>
+
+    <section class="p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <!-- <h2 class="mb-5">Interests</h2> -->
+        <p>I really enjoy developing and designing. Whenever I work on a project, I find myself spending a large amount of time
+          without even realizing it because of how challenging yet fun it can be. However, I also have a passion to teach and help our communities.
+          I find that is is extremely important to support our youth throughout their academic career so that we ensure
+          their success in the future. I would love to be more involved with schools and teaching computer science to younger students.
+        </p>
+        <p class="mb-0">I am also furthering my programming skills by going through Codecademy and Lynda lessons for Javascript.
+          I love learning new langauges and developing small projects to further my understanding.
+        </p>
       </div>
     </section>
 
